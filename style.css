@@ -136,3 +136,28 @@
   .skill-card:hover {
     transform: scale(1.05);
   }
+  .education-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .education-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .education-card h3 {
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-card p {
+    color: #4b5563;
+    line-height: 1.5;
+    font-size: 0.95rem;
+  }
+  
