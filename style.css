@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,6 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
   }
-  
   
   html {
     scroll-behavior: smooth;
@@ -137,4 +136,3 @@
   .skill-card:hover {
     transform: scale(1.05);
   }
-  
